@@ -1,0 +1,21 @@
+Shipment_ID,Factory_Location,Customer_Region,Shipment_Mode,Vendor,Product_Group,Scheduled_Delivery_Date,Actual_Delivery_Date,Shipping_Cost,Distance_km,Transit_Time_Days,Delivery_Status,Delay_Days,Efficiency_Score
+S101,New York,Texas,Road,Vendor A,Chocolate,2026-01-10,2026-01-12,1200,1800,2,Delayed,2,75
+S102,Chicago,Florida,Air,Vendor B,Candy,2026-01-11,2026-01-11,2500,1500,1,On-Time,0,95
+S103,California,Nevada,Road,Vendor C,Gum,2026-01-12,2026-01-14,1000,900,2,Delayed,2,70
+S104,Texas,Arizona,Sea,Vendor D,Lollipop,2026-01-13,2026-01-13,800,1200,1,On-Time,0,92
+S105,Florida,Georgia,Air,Vendor A,Chocolate,2026-01-14,2026-01-15,2000,1000,1,Delayed,1,80
+S106,Ohio,California,Road,Vendor B,Candy,2026-01-15,2026-01-17,1700,2200,2,Delayed,2,72
+S107,Washington,Oregon,Sea,Vendor C,Gum,2026-01-16,2026-01-16,950,700,1,On-Time,0,94
+S108,New Jersey,Virginia,Air,Vendor D,Lollipop,2026-01-17,2026-01-18,2100,1300,1,Delayed,1,82
+S109,Illinois,Colorado,Road,Vendor A,Chocolate,2026-01-18,2026-01-20,1600,2000,2,Delayed,2,73
+S110,Nevada,Utah,Road,Vendor B,Candy,2026-01-19,2026-01-19,900,600,1,On-Time,0,96
+S111,Arizona,New Mexico,Sea,Vendor C,Gum,2026-01-20,2026-01-21,1100,850,1,Delayed,1,79
+S112,Georgia,Alabama,Air,Vendor D,Lollipop,2026-01-21,2026-01-21,2300,1400,1,On-Time,0,97
+S113,Texas,Louisiana,Road,Vendor A,Chocolate,2026-01-22,2026-01-24,1500,1700,2,Delayed,2,71
+S114,Florida,South Carolina,Sea,Vendor B,Candy,2026-01-23,2026-01-23,1000,900,1,On-Time,0,93
+S115,California,Washington,Air,Vendor C,Gum,2026-01-24,2026-01-25,2700,2500,1,Delayed,1,81
+S116,Ohio,Kentucky,Road,Vendor D,Lollipop,2026-01-25,2026-01-25,850,500,1,On-Time,0,95
+S117,New York,Pennsylvania,Road,Vendor A,Chocolate,2026-01-26,2026-01-28,1400,1600,2,Delayed,2,74
+S118,Chicago,Michigan,Sea,Vendor B,Candy,2026-01-27,2026-01-27,950,750,1,On-Time,0,94
+S119,Texas,Mississippi,Air,Vendor C,Gum,2026-01-28,2026-01-29,2200,1450,1,Delayed,1,83
+S120,California,Idaho,Road,Vendor D,Lollipop,2026-01-29,2026-01-30,1300,1550,1,On-Time,0,96
