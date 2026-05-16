@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load processed dataset
-df = pd.read_csv('dataset/processed_shipping_data.csv')
+df = pd.read_csv('processed_shipping_data.csv')
 
 # Shipment Mode Analysis
 print(df['Shipment_Mode'].value_counts())
