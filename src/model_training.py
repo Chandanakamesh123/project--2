@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Load dataset
-df = pd.read_csv('dataset/processed_shipping_data.csv')
+df = pd.read_csv('processed_shipping_data.csv')
 
 # Features and Target
 X = df[['Shipping_Cost', 'Distance_km']]
