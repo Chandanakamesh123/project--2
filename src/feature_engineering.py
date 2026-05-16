@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv('dataset/processed_shipping_data.csv')
+df = pd.read_csv('processed_shipping_data.csv')
 
 # Convert dates
 df['Scheduled_Delivery_Date'] = pd.to_datetime(
@@ -22,6 +22,6 @@ df['Delay_Days'] = (
 df['Efficiency_Score'] = 100 - (df['Delay_Days'] * 10)
 
 # Save updated dataset
-df.to_csv('dataset/processed_shipping_data.csv', index=False)
+df.to_csv('processed_shipping_data.csv', index=False)
 
 print("Feature engineering completed")
